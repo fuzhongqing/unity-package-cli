@@ -28,28 +28,9 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`unity-package-cli hello [FILE]`](#unity-package-cli-hello-file)
 * [`unity-package-cli help [COMMAND]`](#unity-package-cli-help-command)
-
-## `unity-package-cli hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ unity-package-cli hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ unity-package-cli hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/hello.ts](https://github.com/fuzhongqing/unity-package-cli/blob/v0.0.0/src/commands/hello.ts)_
+* [`unity-package-cli pipe [FILE]`](#unity-package-cli-pipe-file)
+* [`unity-package-cli sandbox [CMD]`](#unity-package-cli-sandbox-cmd)
 
 ## `unity-package-cli help [COMMAND]`
 
@@ -67,4 +48,41 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.1.0/src/commands/help.ts)_
+
+## `unity-package-cli pipe [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ unity-package-cli pipe [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+
+EXAMPLE
+  $ upc hello
+  hello world from ./src/hello.ts!
+```
+
+_See code: [src/commands/pipe.ts](https://github.com/fuzhongqing/unity-package-cli/blob/v0.0.0/src/commands/pipe.ts)_
+
+## `unity-package-cli sandbox [CMD]`
+
+create sandbox envriment
+
+```
+USAGE
+  $ unity-package-cli sandbox [CMD]
+
+OPTIONS
+  -f, --force
+
+EXAMPLE
+  $ upc sandbox
+```
+
+_See code: [src/commands/sandbox.ts](https://github.com/fuzhongqing/unity-package-cli/blob/v0.0.0/src/commands/sandbox.ts)_
 <!-- commandsstop -->

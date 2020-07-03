@@ -41,7 +41,7 @@ export default class SandboxCreate extends Command {
       if (flags.force || !config.get('sandbox', false)) {
         return new Promise((resolve, reject) => {
           env.lookup(() => {  
-            env.run('unity-package:sandbox', {'skip-install': true}, err => {
+            env.run('unity-package:sandbox', {'skip-install': true}, (err: any) => {
               if (err) {
                 reject(err);
               } else {
