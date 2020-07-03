@@ -1,6 +1,6 @@
 {
   "name": "unity-package-cli",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "fuzhongqing @fuzhongqing",
   "bin": {
     "upc": "./bin/run"

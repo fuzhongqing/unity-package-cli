@@ -19,7 +19,7 @@ $ npm install -g unity-package-cli
 $ unity-package-cli COMMAND
 running command...
 $ unity-package-cli (-v|--version|version)
-unity-package-cli/0.0.0 darwin-x64 node-v12.18.2
+unity-package-cli/1.0.0 darwin-x64 node-v12.18.2
 $ unity-package-cli --help [COMMAND]
 USAGE
   $ unity-package-cli COMMAND
@@ -67,7 +67,7 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/pipe.ts](https://github.com/fuzhongqing/unity-package-cli/blob/v0.0.0/src/commands/pipe.ts)_
+_See code: [src/commands/pipe.ts](https://github.com/fuzhongqing/unity-package-cli/blob/v1.0.0/src/commands/pipe.ts)_
 
 ## `unity-package-cli sandbox [CMD]`
 
@@ -84,5 +84,5 @@ EXAMPLE
   $ upc sandbox
 ```
 
-_See code: [src/commands/sandbox.ts](https://github.com/fuzhongqing/unity-package-cli/blob/v0.0.0/src/commands/sandbox.ts)_
+_See code: [src/commands/sandbox.ts](https://github.com/fuzhongqing/unity-package-cli/blob/v1.0.0/src/commands/sandbox.ts)_
 <!-- commandsstop -->
