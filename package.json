@@ -10,7 +10,11 @@
     "@oclif/command": "^1",
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^3",
-    "tslib": "^1"
+    "configstore": "^5.0.1",
+    "load-json-file": "^6.2.0",
+    "read-package-json": "^2.1.1",
+    "tslib": "^1",
+    "yeoman-environment": "^2.10.3"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1",
