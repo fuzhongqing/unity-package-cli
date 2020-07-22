@@ -1,0 +1,1 @@
+进入 Repository ，运行 `npm --registry [url] publish`
