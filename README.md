@@ -16,29 +16,29 @@ unity-package-cli
 <!-- usage -->
 ```sh-session
 $ npm install -g unity-package-cli
-$ unity-package-cli COMMAND
+$ up COMMAND
 running command...
-$ unity-package-cli (-v|--version|version)
-unity-package-cli/1.0.0 darwin-x64 node-v12.18.2
-$ unity-package-cli --help [COMMAND]
+$ up (-v|--version|version)
+unity-package-cli/0.0.1 darwin-x64 node-v12.18.2
+$ up --help [COMMAND]
 USAGE
-  $ unity-package-cli COMMAND
+  $ up COMMAND
 ...
 ```
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`unity-package-cli help [COMMAND]`](#unity-package-cli-help-command)
-* [`unity-package-cli pipe [FILE]`](#unity-package-cli-pipe-file)
-* [`unity-package-cli sandbox [CMD]`](#unity-package-cli-sandbox-cmd)
+* [`up help [COMMAND]`](#up-help-command)
+* [`up readme [SUB]`](#up-readme-sub)
+* [`up welcome`](#up-welcome)
 
-## `unity-package-cli help [COMMAND]`
+## `up help [COMMAND]`
 
-display help for unity-package-cli
+display help for up
 
 ```
 USAGE
-  $ unity-package-cli help [COMMAND]
+  $ up help [COMMAND]
 
 ARGUMENTS
   COMMAND  command to show help for
@@ -49,40 +49,28 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.1.0/src/commands/help.ts)_
 
-## `unity-package-cli pipe [FILE]`
+## `up readme [SUB]`
 
-describe the command here
-
-```
-USAGE
-  $ unity-package-cli pipe [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ upc hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/pipe.ts](https://github.com/fuzhongqing/unity-package-cli/blob/v1.0.0/src/commands/pipe.ts)_
-
-## `unity-package-cli sandbox [CMD]`
-
-create sandbox envriment
+打开文档
 
 ```
 USAGE
-  $ unity-package-cli sandbox [CMD]
-
-OPTIONS
-  -f, --force
-
-EXAMPLE
-  $ upc sandbox
+  $ up readme [SUB]
 ```
 
-_See code: [src/commands/sandbox.ts](https://github.com/fuzhongqing/unity-package-cli/blob/v1.0.0/src/commands/sandbox.ts)_
+_See code: [src/commands/readme.ts](https://github.com/fuzhongqing/unity-package-cli/blob/v0.0.1/src/commands/readme.ts)_
+
+## `up welcome`
+
+运行欢迎界面 👏
+
+```
+USAGE
+  $ up welcome
+
+EXAMPLE
+  $ up welcome
+```
+
+_See code: [src/commands/welcome.ts](https://github.com/fuzhongqing/unity-package-cli/blob/v0.0.1/src/commands/welcome.ts)_
 <!-- commandsstop -->
